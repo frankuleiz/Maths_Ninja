@@ -1,4 +1,4 @@
-#A simple maths game to help the player improve their arithmetic prowess
+# A simple maths game to help the player improve their arithmetic prowess
 
 import random
 import math
@@ -13,6 +13,7 @@ print(f"Hello {first_name} {last_name}.You are {age} years old!")
 print("WELCOME TO THE MATHS GAME")
 
 print("LEVEL 1")
+# A function that generates arithmetic expressions
 def generate_question():
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
